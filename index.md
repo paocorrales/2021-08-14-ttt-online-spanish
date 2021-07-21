@@ -1,25 +1,18 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-etherpad:             # optional: URL for the workshop Etherpad if there is one
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+country: "Argentina"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "es"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+humandate: "11, 13, 18 y 25 de agosto de 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "14:00 - 18:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2020-08-11      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2020-08-25        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Laura Acion", "Yanina Bellini Saibene", "Paola Corrales", "Nicolás Palopoli"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+contact: ["paobcorrales@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+etherpad: https://pad.carpentries.org/2021-08-14-online            # optional: URL for the workshop Etherpad if there is one
 locations:
   - venue: "Online"
-    address: ""
-
-  - venue: "Euphoria University"
-    address: "Room A, 123 Forth Street, Blimingen, Euphoria"
-    latlng: "41.7901128,-87.6007318"
-
+    address: "Zoom"
 ---
 
 <!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->
@@ -61,33 +54,38 @@ locations:
 -->
 
 <p>
-  The course is aimed at everyone who is
-  interested in becoming a better teacher. In particular, this training
-  is aimed at those who want to become <a href="{{ site.dc_site }}">Data Carpentry</a>,
-  <a href="{{ site.lc_site }}">Library Carpentry</a>, and <a href="{{ site.swc_site }}">Software Carpentry</a>
-  Instructors, run workshops and contribute to The Carpentries training
-  materials. You don't currently have to be an instructor or a
-  teacher to attend this workshop, but you do need to be willing and
-  committed to becoming one and to improving your teaching techniques.
+  El curso está pensado para cualquier persona que esté interesada 
+  en mejorar sus habilidades como docente. En particular este curso
+  está orientado a personas que quieran convertirse en instructores de 
+  <a href="{{ site.swc_site }}">Software Carpentry</a>,
+  <a href="{{ site.lc_site }}">Library Carpentry</a>, y <a href="{{ site.dc_site }}">Data Carpentry</a>, 
+  dictar talleres y contribuir a los materiales de The Carpentries. 
+  Para participar en este curso no es necesario que estés dando clases actualmente 
+  pero si que te interese hacerlo y quieras mejorar tus habilidades como docente.
+  
+  El curso se dará en español pero muchos de los materiales están en inglés. Haremos todo
+  lo posible para que quienes no manejen inglés puedan participar de la misma manera.
 </p>
 
 <p>
-  <a href="{{ site.dc_site }}">Data Carpentry</a>, <a href="{{ site.lc_site }}">Library Carpentry</a>, and 
-  <a href="{{ site.swc_site }}">Software Carpentry</a>'s mission is to
-  help scientists, researchers, and librarians get more research done in less time
-  and with less pain by teaching them basic lab skills for scientific
-  computing.  This hands-on two-day workshop covers the basics of
-  educational psychology and instructional design, and looks at how to
-  use these ideas in both intensive workshops and regular classes.
+  La misión de 
+  <a href="{{ site.swc_site }}">Software Carpentry</a>,
+  <a href="{{ site.dc_site }}">Data Carpentry</a>, y 
+  <a href="{{ site.lc_site }}">Library Carpentry</a>
+  es ayudar a personas que hacen ciencia, investigan o bibliotecaries a realizar 
+  su trabajo en menor tiempo y con menor esfuerzo al enseñarles
+  habilidades y herramientas de programación.
+  Este taller práctico cubre las bases de la psicología de educación,
+  diseño instruccional y muestra como utilizar estas ideas en talleres intensivos
+  y clases regulares.
 </p>
 <p>
-  The workshop is a mix of lectures and hands-on lessons where you
-  practice giving a short lesson using approaches learned and
-  implement some of the teaching techniques which we will discuss.
-  This is training for teaching, not technical training; you do not
-  need any particular technical background, and we will not be
-  teaching that. This workshop is based on the constantly revised and
-  updated
+  El curso es un conjunto de clases y ejescicios prácticos donde
+  prácticarás dar una lección corta utilizando las herramientas aprendidas 
+  e implementando algunas de las técnicas de enseñanza que discutiremos.
+  Este es un curso para aprender a enseñar, no necesitas tener experiencia 
+  sobre un lenguaje de programación o una herramienta técnica, ya que no lo cubriremos 
+  en este curso. Este curso está en constante revisión y actualización
  <a href="{{ site.training_site }}">curriculum</a>.
 </p>
 
@@ -110,7 +108,7 @@ locations:
 
 {% if online == "online" %}
 
-This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event will be delivered to registrants via email approximately one week before the start of your scheduled training.
+El curso será online. Usaremos la plataforma de videoconferencias, por favor revisá este <a href="https://zoom.us/download">link</a> para asegurarte de tener todo lo necesario para conectarte. El link al evento será enviado por mail a cada participante.
 
 {% else %}
 {% assign inperson = "true" %}
@@ -144,21 +142,15 @@ attempt to provide them.
 
 {% endif %}
 
-<h3>Requirements</h3>
+<h3>Requisitos</h3>
 
-Participants should bring a laptop that is Internet connected and has a
-functioning browser. If you have it, a device for recording audio and video
-(mobile phones and laptops are OK) is useful as throughout the two days, we
-are going to record one another teaching in pairs or threes. It does not have
-to be high-quality, but it should be good enough that you can understand what
-someone is saying.
+Para participar, por favor conectate desde una computadora con micrófono y cámara (opcional).
 
-Please note that after this course is over, you will be asked to do
-three short follow-up exercises online in order to finish qualifying
-as an instructor: the details are available at
-<a href="{{ site.training_site }}/checkout/">{{ site.training_site }}/checkout/</a>.
-If you have any questions about the workshop, the reading material,
-or anything else, please get in touch.
+Luego del curso, deberás realizar tres ejercicios para 
+convertirte en intructor o intructora de Carpentries. 
+Podés encontrar más detalles en la página de 
+<a href="{{ site.training_site }}/checkout/">{{ site.training_site }}/checkout/</a> (en inglés).
+Si tenés alguna consulta sobre el curso, los materiales o cualquier otra cosa por favor escribinos.
 
 
 <h3>Code of Conduct</h3>
@@ -168,9 +160,9 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
 
 
 
-<h3 id="contact">Contact</h3>
+<h3 id="contact">Contacto</h3>
 <p>
-Please email
+Escribimos a
 {% if page.contact %}
   {% for contact in page.contact %}
     {% if forloop.last and page.contact.size > 1 %}
@@ -190,83 +182,100 @@ for more information.
 
 <hr/>
 
-<h2 id="preparation" name="preparation">Preparation</h2>
+<h2 id="preparation" name="preparation">Preparación</h2>
 
 <p>
-  Please read the following before the workshop begins:
+  Si tenés la posibilidad leé los siguientes materiales antes del taller (en inglés):
 </p>
 <ol>
   <li><a href="{{ site.training_site }}/papers/science-of-learning-2015.pdf">The Science of Learning</a></li>
   <li><a href="https://carpentries.org/files/reports/Carpentries2020AnnualReport.pdf">The Carpentries 2020 Annual Report</a></li>
 </ol>
 <p>
-  Please also read through <em>one</em> episode of one of The Carpentries lessons below   
-  carefully, so that you can do some exercises based on it on the
-  first day of the class.  An episode is one page of a lesson.
+  Además leé detalladamente <em>un</em> episodio de alguna de las lecciones de 
+  The Carpentries ya que lo necesitarás para algunos de los ejercicios. Un episodio 
+  es una página de algunas de las lecciones.
 </p>
 
   <ul>
-  <li><a href="{{ site.dc_site }}/lessons">Data Carpentry Lessons</a></li>
-  <li><a href="{{ site.lc_site }}/lessons">Library Carpentry Lessons</a></li>
-  <li><a href="{{ site.swc_site }}/lessons">Software Carpentry Lessons</a></li>
+  <li><a href="{{ site.swc_site }}/lessons">Lecciones de Software Carpentry</a></li>
+  <li><a href="{{ site.dc_site }}/lessons">Lecciones de Data Carpentry</a></li>
+  <li><a href="{{ site.lc_site }}/lessons">Lecciones de Library Carpentry</a></li>
   </ul>
   
-
 <hr/>
 
 <h2 id="materials" name="materials">Training Materials and Schedule</h2>
 
 <p>
-  Please see <a href="{{ site.training_site }}">this site</a> for course material and tentative schedule.
+  En <a href="{{ site.training_site }}">esta página</a> encontrarás los materiales y una agenda tentativa (en construcción). Los horarios se muestran en hora de Argentina (UTC-3).
 </p>
+
 
 
 <hr/>
 
-<!--
+hr/>
+
+
 
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
+    <h3>Día 1 - Sábado 14 de agosto</h3>
     <table class="table table-striped">
       <tr> <td>09:00</td> <td>Welcome </td> </tr>
-      <tr> <td>09:25</td> <td>Building Skill with Practice </td> </tr>
-      <tr> <td>10:25</td> <td>Expertise and Instruction </td> </tr>
-      <tr> <td>11:10</td> <td>Morning Break </td> </tr>
-      <tr> <td>11:25</td> <td>Memory and Cognitive Load </td> </tr>
-      <tr> <td>12:10</td> <td>Building Skill with Feedback </td> </tr>
-      <tr> <td>12:30</td> <td>Lunch </td> </tr>
-      <tr> <td>13:30</td> <td>Motivation and Demotivation </td> </tr>
-      <tr> <td>14:45</td> <td>Mindset </td> </tr>
-      <tr> <td>15:15</td> <td>Afternoon Break </td> </tr>
-      <tr> <td>15:30</td> <td>Teaching Is a Skill </td> </tr>
-      <tr> <td>16:40</td> <td>Wrap-up and Homework for Tomorrow </td> </tr>
-      <tr> <td>17:00</td> <td>Finish </td> </tr>
+      <tr> <td>09:15</td> <td>Building Skill With Practice </td> </tr>
+      <tr> <td>10:20</td> <td>Break </td> </tr>
+      <tr> <td>10:30</td> <td>Expertise and Instruction </td> </tr>
+      <tr> <td>11:20</td> <td>Break </td> </tr>
+      <tr> <td>11:30</td> <td>Memory and Cognitive Load </td> </tr>
+      <tr> <td>12:15</td> <td>Building Skill With Feedback </td> </tr>
+      <tr> <td>12:30</td> <td>Finish </td> </tr>
+    </table>
+  </div>
+    <div class="col-md-6">
+    <h3>Día 2 - Martes 17 de agosto</h3>
+    <table class="table table-striped">
+      <tr> <td>09:00</td> <td>Welcome Back </td> </tr>
+      <tr> <td>09:15</td> <td>Motivation and Demotivation </td> </tr>
+      <tr> <td>10:20</td> <td>Break </td> </tr>
+      <tr> <td>10:35</td> <td>Teaching is a Skill </td> </tr>
+      <tr> <td>11:45</td> <td>Break </td> </tr>
+      <tr> <td>11:55</td> <td>Wrap-Up and Homework for next meeting </td> </tr>
+      <tr> <td>12:15</td> <td>Finish </td> </tr>
+      <tr> <td>12:30</td> <td> </td> .</tr>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
+    <h3>Día 3 - Jueves 19 de agosto</h3>
     <table class="table table-striped">
       <tr> <td>09:00</td> <td>Welcome Back </td> </tr>
-      <tr> <td>09:10</td> <td>Live Coding Is a Skill </td> </tr>
-      <tr> <td>10:20</td> <td>Preparing to Teach </td> </tr>
-      <tr> <td>11:10</td> <td>Morning Break </td> </tr>
-      <tr> <td>11:25</td> <td>More Practice Live Coding </td> </tr>
-      <tr> <td>12:10</td> <td>Managing a Diverse Classroom </td> </tr>
-      <tr> <td>12:40</td> <td>Lunch </td> </tr>
-      <tr> <td>13:40</td> <td>Checkout Process </td> </tr>
-      <tr> <td>13:55</td> <td>The Carpentries: How We Operate </td> </tr>
-      <tr> <td>15:10</td> <td>Afternoon Coffee </td> </tr>
-      <tr> <td>15:25</td> <td>Workshop Introductions </td> </tr>
-      <tr> <td>16:05</td> <td>Putting it Together </td> </tr>
-      <tr> <td>16:25</td> <td>Wraping Up </td> </tr>
-      <tr> <td>16:40</td> <td>Post-Training Survey </td> </tr>
-      <tr> <td>16:55</td> <td>Finish </td> </tr>
+      <tr> <td>09:10</td> <td>Live Coding is a Skill </td> </tr>
+      <tr> <td>10:20</td> <td>Break </td> </tr>
+      <tr> <td>10:30</td> <td>Preparing to Teach </td> </tr>
+      <tr> <td>11:20</td> <td>Break </td> </tr>
+      <tr> <td>11:30</td> <td>More Practice Live Coding </td> </tr>
+      <tr> <td>12:15</td> <td>Managing a Diverse Classroom </td> </tr>
+      <tr> <td>12:45</td> <td>Finish </td> </tr>
+    </table>
+  </div>
+   <div class="col-md-6">
+    <h3>Día 4 - Sábado 21 de agosto</h3>
+    <table class="table table-striped">
+      <tr> <td>09:00</td> <td>Welcome Back </td> </tr>
+      <tr> <td>09:10</td> <td>Checkout Process </td> </tr>
+      <tr> <td>09:30</td> <td>The Carpentries: How We Operate </td> </tr>
+      <tr> <td>11:15</td> <td>Break </td> </tr>
+      <tr> <td>11:30</td> <td>Workshop Introductions </td> </tr>
+      <tr> <td>12:10</td> <td>Putting It Together </td> </tr>
+      <tr> <td>12:00</td> <td>Wrapping Up </td> </tr>
+      <tr> <td>12:15</td> <td>Post-training survey </td> </tr>
+      <tr> <td>12:30</td> <td>Finish </td> </tr>
     </table>
   </div>
 </div>
 
--->
+Adicionalmente ofreceremos un 5to encuentro donde tendrán la posibilidad de completar los 3 pasos del proceso de checkout (discusión, demo de enseñanza, un aporte) el jueves 26 de agosto de 9 a 13 hs (UTC-3). Si bien el encuentro no es obligatorio les sugerimos participar para completar el checkout con todo el grupo y en español. 
 
 <!--
   ETHERPAD
@@ -288,18 +297,18 @@ for more information.
 <p id="etherpad">
   <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
   <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+  Vamos a usar este Etherpad para tomar notas, resolver ejercicios y compartir links útiles.
 </p>
 
 {% endif %}
 
-<h2 id="pre_workshop_survey">Surveys</h2>
+<h2 id="pre_workshop_survey">Encuestas</h2>
 
 <p>
-  Before attending the workshop, please fill out <a href="{{ site.instructor_pre_survey }}{{ site.github.project_title }}">our pre-training survey</a>.
+  Antes del curso, por favor completá <a href="{{ site.instructor_pre_survey }}{{ site.github.project_title }}">la encuesta pre-curso</a>.
 </p>
 
 
 <p>
-  After the workshop, please fill out <a href="{{ site.instructor_post_survey }}{{ site.github.project_title }}">our post-training survey</a>.
+  Luego del curso, por favor completá <a href="{{ site.instructor_post_survey }}{{ site.github.project_title }}">la encuesta post-curso</a>.
 </p>
