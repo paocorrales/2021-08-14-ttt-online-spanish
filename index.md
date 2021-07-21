@@ -155,7 +155,7 @@ Si tenés alguna consulta sobre el curso, los materiales o cualquier otra cosa p
 
 <h3>Código de conducta</h3>
 
-All participants are required to abide by The Carpentries <a href="{{
+Al participar en el curso aceptas el código de conducta de The Carpentries <a href="{{
 site.swc_site }}/conduct/">Code of Conduct</a>.
 
 
