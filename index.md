@@ -3,10 +3,10 @@ layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
 country: "Argentina"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "es"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-humandate: "11, 13, 18 y 25 de agosto de 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "14, 17, 19 y 21 de agosto de 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "14:00 - 18:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2020-08-11      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2020-08-25        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2021-08-14      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2021-08-21        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Laura Acion", "Yanina Bellini Saibene", "Paola Corrales", "Nicolás Palopoli"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 contact: ["paobcorrales@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 etherpad: https://pad.carpentries.org/2021-08-14-online            # optional: URL for the workshop Etherpad if there is one
@@ -177,7 +177,7 @@ Escribimos a
 {% else %}
   to-be-announced
 {% endif %}
-for more information.
+para recibir más información.
 </p>
 
 <hr/>
