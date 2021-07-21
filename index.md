@@ -44,7 +44,7 @@ locations:
 </iframe>
 {% endif %}
 
-<h2 id="general">General Information</h2>
+<h2 id="general">Información general</h2>
 
 <!--
   INTRODUCTION
@@ -97,7 +97,7 @@ locations:
   can use http://itouchmap.com/latlong.html to find the lat/long of an
   address.
   -->
-<h3 id="where">Where</h3>
+<h3 id="where">Dónde</h3>
 
 {% assign inperson = "false" %}
 {% for loc in page.locations %}
@@ -153,7 +153,7 @@ Podés encontrar más detalles en la página de
 Si tenés alguna consulta sobre el curso, los materiales o cualquier otra cosa por favor escribinos.
 
 
-<h3>Code of Conduct</h3>
+<h3>Código de conducta</h3>
 
 All participants are required to abide by The Carpentries <a href="{{
 site.swc_site }}/conduct/">Code of Conduct</a>.
@@ -205,7 +205,7 @@ for more information.
   
 <hr/>
 
-<h2 id="materials" name="materials">Training Materials and Schedule</h2>
+<h2 id="materials" name="materials">Materiales del curso y agenda</h2>
 
 <p>
   En <a href="{{ site.training_site }}">esta página</a> encontrarás los materiales y una agenda tentativa (en construcción). Los horarios se muestran en hora de Argentina (UTC-3).
